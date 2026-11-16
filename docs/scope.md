@@ -1,4 +1,4 @@
-##Scope
+# Scope
 
 Project Deadline: Dec 18th (Before Winter Break)
 Goal: A finished, validated, and refined simulation with a clear README and explanation
