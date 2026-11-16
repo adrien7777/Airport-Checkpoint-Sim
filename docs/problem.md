@@ -1,4 +1,4 @@
-#Problem Statement
+# Problem Statement
 
 ## System
 An airport security checkpoint where passengers queue and are screened.
