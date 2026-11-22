@@ -1,19 +1,19 @@
 # Dataset Notes: Airport Security Checkpoint Data (4TU)
 
 ## Overview
--**Source:** 4TU.ResearchData, "Airport Security Checkpoint Data" ( Janssen et al. 2020)
--**Collected at:** Rotterdam The Hague Airport
--**Purpose:** published with the paper "Data-driven Analysis of Airport Security Checkpoint Operations" (Aerospace, 2020)
--**Files in data/raw/:**
+- **Source:** 4TU.ResearchData, "Airport Security Checkpoint Data" ( Janssen et al. 2020)
+- **Collected at:** Rotterdam The Hague Airport
+- **Purpose:** published with the paper "Data-driven Analysis of Airport Security Checkpoint Operations" (Aerospace, 2020)
+- **Files in data/raw/:**
  -'README.pdf': description of the dataset
  -'security_checkpoint_data.xlsx': the data
--**Sheets:** one sheet per day ([13] days): [tab names, e.g. 2018_12_18a, etc) 
+- **Sheets:** one sheet per day ([13] days): [tab names, e.g. 2018_12_18a, etc) 
 
 
 ## 1. Columns and units
 
 | Spreadsheet column | README name | Meaning | Unit | Type |
-
+|---|---|---|---|---|
 |Lane Number | Not described | Which security lane the passenger used | None | category
 |Date | Date | Day that the passenger was recorded  | dd/mm/yyyy | Date
 |Business, Senior, Family, Young, PRM, regular | b, s, f, y, p, r | Each passenger grouping | None | Indicator (yes/no)
