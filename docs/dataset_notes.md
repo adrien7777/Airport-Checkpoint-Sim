@@ -5,9 +5,9 @@
 - **Collected at:** Rotterdam The Hague Airport
 - **Purpose:** published with the paper "Data-driven Analysis of Airport Security Checkpoint Operations" (Aerospace, 2020)
 - **Files in data/raw/:**
- - 'README.pdf': description of the dataset
- - 'security_checkpoint_data.xlsx': the data
-- **Sheets:** one sheet per day ([13] days): [tab names, e.g. 2018_12_18a, etc) 
+ - `README.pdf`: description of the dataset
+ - `security_checkpoint_data.xlsx`: the data
+- **Sheets:** one sheet per day (13 days): [tab names, e.g. 2018_12_18a, etc) 
 
 
 ## 1. Columns and units
@@ -41,7 +41,7 @@
 
 ## 3. Stages and number of passenger
 
--**Stages, in order:**
+- **Stages, in order:**
  1. Baggage Drop: everyone
  2. Metal Detector Walkthrough 1st, 2nd, 3rd: everyone; some passengers pass through multiple times
  3. Explosive Trace Detection: some people
