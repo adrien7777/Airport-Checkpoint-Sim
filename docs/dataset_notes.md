@@ -5,8 +5,8 @@
 - **Collected at:** Rotterdam The Hague Airport
 - **Purpose:** published with the paper "Data-driven Analysis of Airport Security Checkpoint Operations" (Aerospace, 2020)
 - **Files in data/raw/:**
- -'README.pdf': description of the dataset
- -'security_checkpoint_data.xlsx': the data
+ - 'README.pdf': description of the dataset
+ - 'security_checkpoint_data.xlsx': the data
 - **Sheets:** one sheet per day ([13] days): [tab names, e.g. 2018_12_18a, etc) 
 
 
@@ -33,10 +33,10 @@
 
 ## 2. Arrival times or only durations?
 
--The data racords timestamps (seconds since midnight) for the start and end times of each stage
--Durations can be calculated by subtraction (end - start)
--**Queue entry time record?** [no]
--First timestamp is at beginning of baggage drop and when service is started, not when the passenger joined the line. Generate arrivals randomly, at a rate estimated from passengers per hour
+- The data racords timestamps (seconds since midnight) for the start and end times of each stage
+- Durations can be calculated by subtraction (end - start)
+- **Queue entry time record?** [no]
+- First timestamp is at beginning of baggage drop and when service is started, not when the passenger joined the line. Generate arrivals randomly, at a rate estimated from passengers per hour
 
 
 ## 3. Stages and number of passenger
