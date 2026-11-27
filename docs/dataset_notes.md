@@ -19,6 +19,8 @@
 |Business, Senior, Family, Young, PRM, regular | b, s, f, y, p, r | Each passenger grouping | None | Indicator (yes/no)
 |Experience | J | The level of experience that a passenger has | None | Indicator (experienced/not experienced) 
 |Time Start Baggage Drop Off | K | The time that the passenger starts to drops their luggage off | Seconds since midnight | Timestamp
+|Number of Boxes | L | The number of boxes that each passenger used during baggage check | Boxes | Count
+|Time End Baggage Drop-Off | M | The time that a passenger picks their luggage up after the check | Seconds since mindight | Timestamp 
 |Time Start WTMD 1, 2, 3 | N, O , P | The first, second, and third time that a passenger walks through a metal detector | Seconds since midnight | Timestamp
 |Time Start WTMD Check | Q | The starting time that the passenger receives a patdown | Seconds since midnight | Timestamp
 |Time End WTMD Check | R | The ending time that the passenger receives a patdown | Seconds since midnight | Timestamp
@@ -56,3 +58,15 @@
 - **Citation:** Janssen, S.; van der Sommen, R.; Dilweg, A.; Sharpanskykh, A. (2020).
   Airport Security Checkpoint Data. Version 1. 4TU.ResearchData. Dataset.
   https://doi.org/10.4121/uuid:6246e6a6-d149-420f-a6a4-7afd08f154b5
+
+## 5. Data Quality Notes:- 
+
+- Data is split into one sheet per day so data will need to be combined in code with a "day" column.
+- Queue start times are not kept on track thus arrivals will be generated.
+- Stages that only some passengers go on such as WTMD check will have a blank value for everyone else.
+
+## 6. Open Questions:
+
+- WTMD start times are recorded but end times are not thus we are not able to measure the duration of this stage.
+- Some stages such as WTMD check will not be used some users thus there will be a blank value for this stages for everyone else.
+- Date is written out dd/mm//yyyy, may cause issues with panda.
